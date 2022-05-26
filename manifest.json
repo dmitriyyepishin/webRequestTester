@@ -1,0 +1,16 @@
+{
+  "name": "webRequestTester",
+  "description": "Test WebRequest",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "webRequest"
+  ],
+  "host_permissions": [
+    "https://kuku.com/"
+  ],
+  "background": {
+    "service_worker":
+      "background.js"
+  }
+}
