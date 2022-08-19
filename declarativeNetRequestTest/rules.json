@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "regexSubstitution": "redir.html?\\0"
+      }
+    },
+    "condition": {
+      "regexFilter": "^.+blockme.*",
+      "requestMethods" : ["get"],
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
+  }
+]
